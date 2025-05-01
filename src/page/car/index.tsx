@@ -1,3 +1,3 @@
-export function Car(){
+export function CarDetail(){
     return <div>Car</div>;
 }
