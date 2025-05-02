@@ -1,5 +1,5 @@
 import { Link } from 'react-router';
-import logo from '../../assets/BlueStashWebCarros.svg';
+import logo from '../../assets/WebCarros.svg';
 import { LogIn, User } from 'lucide-react';
 
 export function Header() {
@@ -11,9 +11,9 @@ export function Header() {
       <header className="flex w-full justify-between max-w-7xl items-center px-4">
         <Link
           to="/"
-          className="flex items-center w-[256px] bg-red-600 h-12 px-4 rounded-sm"
+          className="flex items-center w-[256px]  h-12 px-4 rounded-sm"
         >
-          <img src={logo} alt="Bluestash Web Carros" />
+          <img src={logo} alt="BlueStash Web Carros" />
         </Link>
 
         {!loadingAuth && singed && (

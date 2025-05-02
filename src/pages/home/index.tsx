@@ -10,7 +10,7 @@ export function Home() {
         />
         <button
           type="button"
-          className="bg-amber-400 h-9 px-8 text-white rounded-lg text-lg"
+          className="bg-red-500 h-9 px-8 text-white rounded-lg text-lg"
         >
           Buscar
         </button>
